@@ -47,7 +47,7 @@ inquirer
         message: 'How can someone contribute to this project?',
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'What license do you have for the project?',
         choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
@@ -56,9 +56,58 @@ inquirer
 ])
 .then((answers) => {
     console.log(answers);
+
+    const readMe = `# ${answers.title}
+
+## Table of Contents:
+    
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributions](#contributions)
+- [Questions](#questions)
+- [License](#license)
+    
+## Description:
+    
+${answers.description}
+    
+## Technologies:
+    
+Project was created with:
+    
+1. ${answers.technologies[0]}
+2. ${answers.technologies[1]}
+3. ${answers.technologies[2]}
+4. ${answers.technologies[3]}
+    
+## Installation:
+    
+${answers.installation}
+       
+## Usage: 
+
+\`\`\`
+
+${answers.usage}  
+
+\`\`\`
+
+## Contributions:
+    
+${answers.contributing}
+    
+## Questions:
+    
+Github: ${answers.github}
+Email: ${answers.email}
+    
+## License: 
+    
+${answers.license}`
+
+    fs.writeFile('readme.md', `${readMe}`, (err) => console.log('README logged!')
+);
 });
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 // function init() {}
