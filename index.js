@@ -98,8 +98,8 @@ ${answers.contributing}
     
 ## Questions:
     
-Github: ${answers.github}
-Email: ${answers.email}
+### Github: ${answers.github}
+### Email: ${answers.email}
     
 ## License: 
     
