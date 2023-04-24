@@ -105,7 +105,7 @@ Email: ${answers.email}
     
 ${answers.license}`
 
-    fs.writeFile('readme.md', `${readMe}`, (err) => console.log('README logged!')
+    fs.writeFile('readmeExample.md', `${readMe}`, (err) => console.log('README logged!')
 );
 });
 
