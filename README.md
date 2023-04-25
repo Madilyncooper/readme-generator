@@ -32,3 +32,8 @@ $ git clone <paste the copied link>
 ```
 
  ## Screenshot:
+
+<img width="958" alt="Screen Shot 2023-04-24 at 5 58 36 PM" src="https://user-images.githubusercontent.com/124405920/234149376-411653c1-df0d-4001-847d-14adbec214dd.png">
+<img width="929" alt="Screen Shot 2023-04-24 at 5 59 00 PM" src="https://user-images.githubusercontent.com/124405920/234149407-cf469c29-67a1-4660-a73b-af25f441932c.png">
+<img width="929" alt="Screen Shot 2023-04-24 at 5 59 25 PM" src="https://user-images.githubusercontent.com/124405920/234149435-8ae5b99a-fc9a-4389-adec-0be8c2a35267.png">
+<img width="929" alt="Screen Shot 2023-04-24 at 5 59 34 PM" src="https://user-images.githubusercontent.com/124405920/234149451-1f8e9927-4837-43d0-9ef1-05038acf8962.png">
