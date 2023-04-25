@@ -31,6 +31,10 @@ $ cd <any folder you want this repository to go to>
 $ git clone <paste the copied link>
 ```
 
+## Walkthrough Video: 
+
+https://watch.screencastify.com/v/SQ4H45aHBS3FYTDrsebs
+
  ## Screenshot:
 
 <img width="958" alt="Screen Shot 2023-04-24 at 5 58 36 PM" src="https://user-images.githubusercontent.com/124405920/234149376-411653c1-df0d-4001-847d-14adbec214dd.png">
