@@ -1,8 +1,6 @@
-// TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-// TODO: Create an array of questions for user input
 inquirer 
 .prompt ([
     {
@@ -58,7 +56,7 @@ inquirer
     console.log(answers);
 
     const readMe = `# ${answers.title}
-
+[![License](https://img.shields.io/badge/License-${answers.license}-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 ## Table of Contents:
     
 - [Installation](#installation)
@@ -98,8 +96,8 @@ ${answers.contributing}
     
 ## Questions:
     
-### Github: ${answers.github}
-### Email: ${answers.email}
+### Github - ${answers.github}
+### Email - ${answers.email}
     
 ## License: 
     
@@ -107,11 +105,6 @@ ${answers.license}`
 
     fs.writeFile('readmeExample.md', `${readMe}`, (err) => console.log('README logged!')
 );
+
 });
-
-// TODO: Create a function to initialize app
-// function init() {}
-
-// Function call to initialize app
-// init();
 
