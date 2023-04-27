@@ -31,6 +31,11 @@ inquirer
     },
     {
         type: 'input',
+        name: 'tests',
+        message: 'What tests did you use?',
+    },
+    {
+        type: 'input',
         name: 'github',
         message: 'What is your github username?',
     },
@@ -93,6 +98,10 @@ ${answers.usage}
 ## Contributions:
     
 ${answers.contributing}
+
+##Tests:
+
+${answers.tests}
     
 ## Questions:
     
