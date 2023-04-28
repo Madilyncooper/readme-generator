@@ -32,7 +32,7 @@ inquirer
     {
         type: 'input',
         name: 'tests',
-        message: 'What tests did you use?',
+        message: 'Use this command to run tests:',
     },
     {
         type: 'input',
