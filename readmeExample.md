@@ -1,4 +1,4 @@
-# readme-generator
+# Title of project here
 [![License](https://img.shields.io/badge/License-MIT-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 ## Table of Contents:
     
@@ -17,29 +17,33 @@ An in depth description of my project An in depth description of my project An i
 Project was created with:
     
 1. Javascript
-2. Node.js
-3. undefined
-4. undefined
+2. CSS
+3. Node.js
+4. HTML
     
 ## Installation:
     
-Go to github and clone the repo
+Description of installation instructions
        
 ## Usage: 
 
 ```
 
-Make sure node is installed and then use node to go through the prompts  
+Description of how to use project  
 
 ```
 
 ## Contributions:
     
-clone the repo and make a pull request
+Ways to contribute go here
+
+## Tests:
+
+How to test goes here
     
 ## Questions:
     
-### Github - madilyncooper
+### Github - [madilyncooper](https://github.com/madilyncooper) 
 ### Email - madilynmcooper@gmail.com
     
 ## License: 

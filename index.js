@@ -105,7 +105,7 @@ ${answers.tests}
     
 ## Questions:
     
-### Github - ${answers.github}
+### Github - [${answers.github}](https://github.com/${answers.github}) 
 ### Email - ${answers.email}
     
 ## License: 
